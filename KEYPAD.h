@@ -11,6 +11,16 @@
 
 
 void KPD_Init(void);
+
+void KPD_ROW_INIT(void);
+
+
+void KPD_ROW_INIT(void);
+void KPD_COL_INIT(void);
+
+void KPD_COL_READ(u8* VALPTR);
+void KPD_ROW_WRITE(u8 DATA);
+
 void KPD_ReadVal(unsigned char* ValuePtr);
 
 

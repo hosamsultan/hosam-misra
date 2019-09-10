@@ -6,7 +6,12 @@
  */ 
 #include "DIO.h"
 #include "BLMGR_CFG.h"
-BLMGR_DioPinConfig BuzzerConfig      = {PC,1<<4};
-BLMGR_DioPinConfig BlueToothPwrConfig = {PC,1<<5};
-BLMGR_DioPinConfig BluetoothKeyConfig = {PD,1<<2};	
+
+#define four 4u
+#define five 4u
+#define two 4u
+
+BLMGR_DioPinConfig BuzzerConfig       = {PC,1u<<four};
+BLMGR_DioPinConfig BlueToothPwrConfig = {PC,1u<<five};
+BLMGR_DioPinConfig BluetoothKeyConfig = {PD,1u<<two};
 	
